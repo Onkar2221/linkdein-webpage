@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+
+    <title>Bootstrap Linkdein</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg" style="background: #ffffff">
+        <a class="navbar-brand" href="#"
+          ><img height="150px" width="250px" src="./logo1.jpeg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: black">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">People</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Learning</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jobs</a>
+            </li>
+            <li class="nav-item last-btn">
+              <a class="nav-link" href="#"
+                ><button type="button" class="btn btn-outline-primary">
+                  Join now
+                </button></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-fluid">
+      <section>
+        <div class="container my-5">
+          <div class="row justufy-content-center">
+            <div class="col-md-7 text-center text-md-start order-md-1">
+              <p class="heading-para">
+                Welcome to your <br />
+                Professional community
+              </p>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+              </form>
+              <p style="color: rgb(4, 41, 252)">Forgot password?</p>
+              <button type="sign-in" class="btn btn-primary form-button">
+                Sign in
+              </button>
+              <p class="or px-5">or</p>
+              <div>
+                <div class="">
+                  <div>
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary form-button"
+                    >
+                      Continue with Google
+                    </button>
+                  </div>
+                  <div>
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary my-4 form-button"
+                    >
+                      New to linkdin?Join now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5 text-center order-md-2 d-none d-sm-block">
+              <!--I s dont want to show img in case of responsive size then we an used (d-none  d-md-block or d-sm-block)-->
+              <img src="./img1.svg" alt="" class="img-fluid right-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="info-btn">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-md-5 text-center text-md-start order-md-1 my-5">
+            <h2>Explore</h2>
+            <h2>collaborativ</h2>
+            <h2>articles</h2>
+            <p class="lead my-0">
+              We’re unlocking community knowledge in a new
+            </p>
+            <p class="lead-2 my-0">
+              way. Experts add insights directly into each
+            </p>
+            <p class="lead-3 my-0">article, started with the help of AI.</p>
+          </div>
+          <div class="col-md-7 text-center order-md-2">
+            <div class="row justify-content-space-center my-5">
+              
+              <div class="col-lg-3 col-md-4 col-sm-6  text-center text-md-start">
+                <button type="button" class="btn btn-secondary btn-01">
+                  Marketing
+                  </button>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                  <button type="button" class="btn btn-secondary btn-01">
+                    Agriculture
+                  </button>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <button type="button" class="btn btn-secondary btn-01">
+                  Sustainability
+                </button>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <button type="button" class="btn btn-secondary btn-01" id="big-1">
+                  Telecommunication
+                </button>
+              </div>
+              <!-- <div class="col-md-3 text-center text-md-start my-5 middle"> -->
+                <div class=" col-lg-3 col-md-4 col-sm-6 text-center">
+                <button type="button" class="btn btn-secondary btn-01">
+                  Healthcare</button>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <button type="button" class="btn btn-secondary btn-01">Engineering</button>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <button type="button" class="btn btn-secondary btn-01">
+                  IT Service
+                </button>
+              </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 text-center text-md-start">
+                  <button
+                    type="button"
+                    class="btn btn-secondary btn-01"
+                    id="big-1"> Public Administration</button>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                  <button
+                    type="button"
+                    class="btn btn-secondary btn-01"
+                    id="big-2">Business Administration</button>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-3 px-5 ">
+                    <button
+                    type="button"
+                    class="btn btn-secondary btn-01   show"
+                    id="big-3">Show all</button>
+                  </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-btn-2">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-md-4 text-center text-md-start order-md-1 my-5">
+            <p class="info-01">Find the right job or</p>
+            <p class="info-02">internship for you</p>
+          </div>
+          <div class="col-md-8 text-center order-md-2">
+            <div class="row justify-content-space-center">
+              <div class=" col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-1 text-center my-3">
+                <button type="button" class="btn btn-secondary font-decrease">Engineering</button>
+              </div>
+              <div class=" col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-1 text-center my-3">
+                <button type="button" class="btn btn-secondary font-decrease">Finance</button>
+              </div>
+              <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-4 col-xs-1 text-center my-3">
+                <button type="button" class="btn btn-secondary font-decrease">Operations</button>
+              </div>
+              <div class="col-xxl-2 col-xl-3 col-lg-4 col-md-4 col-sm-4 col-xs-1 text-center my-3">
+                <button type="button" class="btn btn-secondary font-decrease">Marketing</button>
+              </div>
+              <div class="col-xxl-4 col-xl-3 col-lg-4 col-md-4 col-sm-4 col-xs-1 text-center my-3">
+                <button type="button" class="btn btn-secondary font-decrease" id="retail">Retail Associate</button>
+              </div>
+              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-4 col-xs-1 text-center my-3">
+                <button type="button" class="btn btn-secondary font-decrease" id="service">Customer Service</button>
+              </div>
+              <div class=" col-xxl-3 col-xl-3 col-lg-4 col-md-6  col-sm-6 col-xs-1 text-center my-3">
+                <button type="button" class="btn btn-secondary font-decrease" id="human">Human Resources</button>
+              </div>
+              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6  col-sm-6 col-xs-1 text-center my-3">
+                <button type="button" class="btn btn-secondary font-decrease" id="business">Business Development</button>
+              </div>
+              <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6  col-sm-6 col-xs-1 text-center my-3">
+                <button type="button" class="btn btn-secondary font-decrease" id="asset">Administrative Assistant</button>
+              </div>
+              <div class="col-xxl-2 col-xl-4 col-lg-4 col-md-4  col-sm-2 col-xs-1 text-center my-3">
+                <button type="button" class="btn btn-secondary font-decrease">Show More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-btn-3">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-md-5 text-center text-md-start order-md-1 my-5">
+            <p class="para-03">Post your job for</p>
+            <p class="para-03">millions of people to</p>
+            <p class="para-03">see</p>
+          </div>
+          <div class="col-md-7 text-center order-md-2">
+            <div class="row justify-content-space-center">
+              <div class="col-md-3 text-center text-md-start my-5 all-outline">
+                <button type="button" class="btn btn-outline-primary post-btn">
+                  Post a Job
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-03">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7 text-center text-md-start order-md-1 my-5">
+            <h2 class="info-heading">Let the right people know</h2>
+            <h2 class="info-heading" id="info-heading-02">
+              you’re open to work
+            </h2>
+            <p class="img-para">With the Open To Work feature, you can</p>
+            <p class="img-para">privately tell recruiters or publicly share</p>
+            <p class="img-para">with the LinkedIn community that you are</p>
+            <p class="img-para">looking for new job opportunities.</p>
+          </div>
+          <div class="col-md-5 text-center order-md-2 my-4">
+            <img height="500px" src="./asset 1.png" alt=""  class="circle-img"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container my-5">
+        <div class="row justify-content-start">
+          <div class="col-md-6 text-center text-md-start">
+            <img height="500px" width="450px" src="./img2.svg" alt="" class="img-two" />
+            <h2 class="two-img">Connect with people</h2>
+            <h2 class="two-img">who can help</h2>
+            <button
+              type="button"
+              class="btn btn-outline-secondary btn-out"
+              id="below-btn"
+            >
+              Find people you know
+            </button>
+          </div>
+          <div class="col-md-6 text-center text-md-start">
+            <img height="500px" width="450px" src="./img3.svg" alt="" class="img-two"  />
+            <h2 class="two-img">Learn the skills you</h2>
+            <h2 class="two-img">need to succeed</h2>
+            <button type="button" class="btn-2 btn-outline-secondary my-3">
+              Choose a topic to learn about
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid my-5 py-5 " style="overflow-x: hidden;">
+        <div class="row justify-content-start">
+          <div class="col-md-6 text-center text-md-start left-side">
+            <p class="one-line">Who is LinkedIn for?</p>
+            <p class="two-line">Anyone looking to navigate</p>
+            <p class="two-line">their professional life.</p>
+            <div class="row justify-content-start">
+              <div class="col-md-3 text-start text-md-start">
+                <button
+                  type="button"
+                  class="btn btn-outline-dark my-3 three-btn"
+                >
+                  Find a coworker or classmate
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark my-3 three-btn"
+                >
+                  Find a new job
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-dark my-3 three-btn"
+                >
+                  Find a course or Training
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 justify-content-end d-none d-sm-block">
+            <img height="850px" src="./img4.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid my-5">
+        <div class="row justify-content-start">
+          <div class=" col-xl-5  col-lg-4 col-md-5 text-center text-md-start justify-content-center">
+            <iframe class="video-link" width="505" height="315"   src="https://www.youtube.com/embed/IlYUUN8rL_Y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <div class=" col-xl-7 col-lg-8 col-md-7 text-center text-md-start  my-5 v-section">
+            <p class="v-para-1">In it to chase my dream</p>
+            <p class="v-para-2">Check out Gayatri’s story of</p>
+            <p class="v-para-2">finding a new job on LinkedIn</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section>
+  <div class="container-fluid my-5">
+    <div class="row justify-content-center">
+<div class="col-md-12 justify-content-center baaner">
+<p class="front-para-1">Join your colleagues, classmates, and friends on</p>
+<p class="front-linkedin">LinkedIn.</p>
+<button type="button" class="btn btn-primary front-para-2">Get Started</button>
+</div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+    <div class="container-fluid flex footer-container">
+      <a href="#"  class="company-logo ">
+        <img  height="100px" src="./logo1.jpeg" alt="" />
+      </a>
+      <div class="footer-link">
+        <h4>General</h4>
+        <a href="#" class="hover-link">Sign Up</a>
+        <a href="#" class="hover-link">Help Center</a>
+        <a href="#" class="hover-link">About</a>
+        <a href="#" class="hover-link">Press</a>
+        <a href="#" class="hover-link">Blog</a>
+        <a href="#" class="hover-link">Careers</a>
+        <a href="#" class="hover-link">Developers</a>
+      </div>
+      <div class="footer-link">
+        <h4>Browse LinkedIn</h4>
+        <a href="#" class="hover-link">Learning</a>
+        <a href="#" class="hover-link">Jobs</a>
+        <a href="#" class="hover-link">Salary</a>
+        <a href="#" class="hover-link">Mobile</a>
+        <a href="#" class="hover-link">Services</a>
+        <a href="#" class="hover-link">Products</a>
+      </div>
+      <div class="footer-link">
+        <h4>Business Solution</h4>
+        <a href="#" class="hover-link">Talent</a>
+        <a href="#" class="hover-link">Marketing</a>
+        <a href="#" class="hover-link">Sales</a>
+        <a href="#" class="hover-link">Learning</a>
+      </div>
+      <div class="footer-link">
+        <h4>Direction</h4>
+        <a href="#" class="hover-link">Members</a>
+        <a href="#" class="hover-link">Jobs</a>
+        <a href="#" class="hover-link">Companies</a>
+        <a href="#" class="hover-link">Featured</a>
+        <a href="#" class="hover-link">Learning</a>
+        <a href="#" class="hover-link">Posts</a>
+        <a href="#" class="hover-link">Articles</a>
+        <a href="#" class="hover-link">Schools</a>
+        <a href="#" class="hover-link">News</a>
+        <a href="#" class="hover-link">News Letters</a>
+        <a href="#" class="hover-link">Services</a>
+        <a href="#" class="hover-link">Products</a>
+        <a href="#" class="hover-link">Advice</a>
+        <a href="#" class="hover-link">People Search</a>
+      </div>
+    </div>
+</footer>
+
+
+<div class="container-fluid">
+  <div class="subfooter";>
+    <div class="container flex subfooter-last">
+      <a href="#" class="hover-link"><img src="./logo2.svg" alt="" class="sub-logo"></a>
+      <a href="#" class="hover-link">&copy;2023</a>
+      <a href="#" class="hover-link">About</a>
+      <a href="#" class="hover-link">Accessibility</a>
+      <a href="#" class="hover-link">User Agreement</a>
+      <a href="#" class="hover-link">Pravicy Policy</a>
+      <a href="#" class="hover-link">Cookie Policy</a>
+      <a href="#" class="hover-link">Copyright Policy</a>
+      <a href="#" class="hover-link">Brand Policy</a>
+      <a href="#" class="hover-link">Guest Controls</a>
+      <a href="#" class="hover-link">Community Guidelines</a>
+      <a href="#" class="hover-link">Language</a>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

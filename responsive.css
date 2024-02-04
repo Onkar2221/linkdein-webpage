@@ -1,0 +1,159 @@
+@media screen and (max-width: 1400px) {
+  .btn {
+    font-size: 1.2rem;
+    width: 132px;
+  }
+  .btn-01 {
+    width: 121px;
+  }
+  #big-1,
+  #big-2 {
+    width: 141px;
+    font-size: 1rem;
+  }
+  .v-section {
+    width: 700px;
+  }
+  .video-link {
+    margin-bottom: 134px;
+    margin-left: 65px;
+  }
+  .three-btn {
+    width: 300px;
+  }
+  .front-para-1,
+  .front-linkedin {
+    font-size: 3rem;
+  }
+  .col-lg-3 {
+    text-align: center;
+  }
+  .form-button {
+    width: 287px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .front-para-1,
+  .front-linkedin {
+    font-size: 2.8rem;
+  }
+  .hover-link {
+    font-size: 0.79rem;
+  }
+  .video-link {
+    margin-bottom: 109px;
+    margin-left: -8px;
+  }
+  .v-section {
+    width: 580px;
+    margin-left: 24px;
+  }
+  .v-para-2 {
+    font-size: 2rem;
+  }
+  .three-btn {
+    width: 255px;
+  }
+  .left-side {
+    padding-left: 27px;
+  }
+  .img-para {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .subfooter-last {
+    justify-content: stretch;
+    line-height: 1.2rem;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  .company-logo img {
+    width: 132px;
+  }
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .front-para-1,
+  .front-linkedin {
+    font-size: 2rem;
+    line-height: 1.3rem;
+  }
+  .v-section {
+    width: 598px;
+    margin-left: 63px;
+  }
+  .v-para-1 {
+    font-size: 2.2rem;
+    padding-top: 28px;
+  }
+  .v-para-2 {
+    font-size: 2.2rem;
+  }
+
+  .video-link {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .v-section {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+  }
+  #retail {
+    margin-left: -22px;
+  }
+  .img-para {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+  .circle-img {
+    height: 400px;
+    width: 400px;
+  }
+  .para-03 {
+    font-size: 2.4rem;
+    line-height: 2.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subfooter-last {
+    justify-content: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .footer-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: stretch;
+  }
+  .front-para-1,
+  .front-linkedin {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+  .hover-link {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .img-two {
+    height: 300px;
+    width: 300px;
+  }
+  .circle-img {
+    height: 297px;
+    width: 271px;
+  }
+  .video-link {
+    width: 300px !important;
+  }
+  .post-btn {
+    margin-top: -85px;
+  }
+}
